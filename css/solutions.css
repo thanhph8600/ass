@@ -1,0 +1,54 @@
+.app-contact {
+    background-image: url(https://iso.500px.com/wp-content/uploads/2019/11/Man-doing-postproduction-of-his-photos-on-laptop-at-night-By-Carina-Konig.jpg);
+}
+
+
+
+.app-solutions {
+    padding: 100px 0;
+}
+.app-solutions__content-img-top{
+    width: 100%;
+}
+.app-solutions__content-img-top img {
+    width: 100%;
+}
+.app-solutions__content-img-left {
+    width: 100%;
+}
+.app-solutions__content-img-left img {
+    width: 100%;
+}
+
+.app-solutions__content-info {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.app-solutions__content-info-title {
+    font-size: 35px;
+    line-height: 30px;
+}
+
+.app-solutions__content-info h3 {
+    font-size: 22px;
+    line-height: 25px;
+}
+.app-solutions__content ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.app-solutions__content ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.app-solutions__content ul li i {
+    color:#F80759;
+    width: 30px;
+    font-size: 22px;
+}

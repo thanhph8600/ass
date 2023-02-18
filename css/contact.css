@@ -1,0 +1,139 @@
+
+/* header-content */
+.app-contact {
+    background-image: url(http://www.iddrak.com/wp/netzen/wp-content/uploads/2022/01/banner-img.jpg);
+
+}
+
+
+
+/* section-form */
+.app-contact__form {
+    padding: 110px 30px;
+
+}
+
+.second-section__content-left-s1 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #021B79;
+    border-top: 2px #f80759 solid;
+    border-bottom: 2px #f80759 solid;
+
+}
+.second-section__content-left-s2 {
+    font-size: 36px;
+    width: 95%;
+    font-weight: 400;
+    color: #111111;
+    line-height: 45px;
+}
+.app-contact__left p {
+    color: #5F7586;
+    /* font-family: "Poppins"; */
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.app-contact__left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.app-contact__left ul {
+    display: flex;
+    gap: 10px;
+}
+.app-contact__left ul li {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(210, 206, 206);
+    border-radius: 50%;
+}
+
+
+.app-contact__right {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+}
+.app-contact__right-input {
+    padding: 10px 0;
+}
+.app-contact__right-input input {
+    width: 100%;
+    padding: 17px ;
+    border: 1px solid rgba(182, 178, 178, 0.43);
+}
+.app-contact__right-input textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(182, 178, 178, 0.43);
+    font-size: 16px;
+}
+textarea:focus{
+    outline: none;
+}
+
+
+.app-contact__right-butom button{
+    width: 160px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #f80759;
+    color: #fff;
+    font-size: 15.5px;
+    border: none;
+}
+
+
+.app-contact__address {
+    padding-bottom: 100px;
+    padding-top: 0;
+}
+.app-contact__address-item {
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px rgba(230, 228, 228, 0.553);
+}
+.app-contact__address-item-top .img{
+    width: 100%;
+
+}
+.app-contact__address-item-top img {
+    width: 100%;
+    display: block;
+}
+.app-contact__address-item-top-country {
+    background-color: #021B79;
+    color: #fff;
+    padding: 25px;
+}
+.app-contact__address-item-top-bottom {
+    padding: 25px;
+}
+.app-contact__address-item-top-bottom ul {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.app-contact__address-item-top-bottom li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.app-contact__address-item-top-bottom li i {
+    color: #f80757a2;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.app-contact__address-item-top-bottom p {
+    font-weight: 400;
+    color: #5F7586;
+}

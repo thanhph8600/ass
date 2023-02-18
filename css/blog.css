@@ -1,0 +1,128 @@
+.app-contact {
+    background-image: url(https://static-cse.canva.com/blob/978783/Canva-Modifierphoto-Banniere.75189314.png);
+
+}
+
+.app-blog__content{
+    padding: 80px 0;
+}
+.app-blog__content-riew{
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px rgba(180, 172, 172, 0.363);
+    border-bottom: 1px solid #021B79;
+    transition: border-bottom .5s ease-in-out;
+}
+.app-blog__content-riew-img {
+    width: 100%;
+}
+.app-blog__content-riew-img img {
+    width: 100%;
+}
+
+.app-blog__content-riew-info {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ h2 {
+    font-size: 27px;
+}
+ p{
+    color:  #616161;
+    font-size: 16.5px;
+}
+ h3 {
+    font-size: 24px;
+    padding: 10px 0;
+    line-height: 25px;
+}
+.app-blog__content-riew-info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.app-blog__content-riew-info ul li{
+    display: flex;
+    align-items: center;
+}
+ul li i {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    color: #f80759;
+}
+.app-blog__content-riew-info ul li p {
+    line-height: 20px;
+}
+.app-blog__content-riew:hover {
+    border-bottom: 1px solid #f80759;
+}
+
+.app-blog__content-form-tilte {
+    padding: 50px 0px 15px 0;
+}
+
+.app-blog__content-right {
+    padding: 20px;
+    margin-top: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px rgba(180, 172, 172, 0.363);
+}
+
+
+.app-contact__right-input {
+    position: relative;
+}
+.app-contact__right-input i{
+    position: absolute;
+    color: #f80759;
+    font-size: 24px;
+    right: 15px;
+    font-weight: 100;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.app-contact__right-muc {
+    padding: 10px 0;
+}
+
+.app-contact__right-muc ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 0;
+}
+.app-contact__right-muc ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app-contact__right-muc ul li div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-contact__right-muc-item {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.app-contact__right-muc-row {
+    display: flex;
+    gap: 15px;    
+}
+.app-contact__right-muc-row h4 {
+    font-size: 18px;
+}
+.app-contact__right-muc-row h4:hover {
+    color: #f80759;
+    cursor: pointer;
+}
+.app-contact__right-muc-row span {
+    color: #f80759;
+}

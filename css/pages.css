@@ -1,0 +1,75 @@
+
+.second-section {
+    padding-top: 100px !important;
+}
+
+.app-contact {
+    background-image: url(https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX7671236.jpg);
+}
+
+/* first-section */
+.app-pages__first {
+    padding-top: 100px;
+}
+.app-pages__first-content-img {
+    width: 90%;
+}
+ img {
+    width: 100%;
+}
+
+.app-pages__first-content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.app-pages__first-title {
+    font-size: 33px;
+    line-height: 30px;
+    color: #000 !important;
+}
+.app-pages__first-content-text p {
+    color: #616161
+}
+
+
+/* second-section */
+.app-pages__second  {
+    padding: 100px 0;
+}
+.app-pages__second-title {
+    text-align: center;
+    padding-bottom: 20px;    
+}
+.app-pages__second-title>div {
+    padding-bottom: 20px;
+}
+.app-pages__second-title span {
+    border-top: 2px solid #f80759;
+    border-bottom: 2px solid #f80759;
+    color: #021B79;
+    font-size: 17px;
+    font-weight: 700;   
+}
+
+.app-pages__second-content {
+    color: #fff;
+}
+.app-pages__second-content .s1,
+.app-pages__second-content .s3 {
+    background-color: #021B79;
+}
+.app-pages__second-content .s2 {
+    background-color: #f80759;
+}
+.app-pages__second-content-item {
+    padding: 35px;
+}
+.app-pages__second-content-item .img {
+    width: 50px;
+}
+.app-pages__second-content-item h4 {
+    font-size: 20px;
+    padding: 20px 0;
+}
