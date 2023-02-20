@@ -908,6 +908,10 @@ a {
         flex-direction: row;
     }
 
+    
+    .nineth-section__content-item {
+        width: 32.33%;
+    }
 
     .footer-content {
         display: flex;
@@ -986,4 +990,10 @@ a {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .nineth-section__content-item {
+        width: 32.33%;
+    }
+    
+    
 }
