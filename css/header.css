@@ -13,7 +13,7 @@
     flex-wrap: wrap;
     align-items: center;
     color: #fff;
-    padding: 10px 0;
+    padding: 10px 0 !important;
     font-size: .9em;
 }
 .flex-header{
@@ -27,7 +27,7 @@
 .header-care{
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 20px 0 !important;
     align-items: center;
     font-family: 'Poppins', sans-serif;
 
