@@ -1,4 +1,37 @@
 
+html {
+    scroll-behavior: smooth;
+}
+.top {
+    display: none;
+
+}
+@keyframes tops {
+    0% {
+        bottom: 0;
+    }
+    100% {
+        bottom: 10%;
+    }
+}
+.top  a {
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f80759;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    animation: tops .5s ease-in-out;
+
+}
+
+
 /* .header {
     min-height: ;
 } */
@@ -24,13 +57,39 @@
 .flex-header i {
     font-size: 1.2em;
 }   
+.flex-header p {
+    color: #fff !important;
+}
 .header-care{
     display: flex;
     justify-content: space-between;
-    padding: 20px 0 !important;
+    padding-top: 20px !important;
+    padding-bottom:20px !important ;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-
+    width: 80%;
+    margin: 0 auto;
+}
+.header-care-load {
+    position: fixed;
+    z-index: 15000;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: #ffffff;
+    border-bottom: 1px rgba(0, 0, 0, 0.326) solid;
+    padding-left:10% !important;
+    padding-right: 10% !important;
+    width: 100% !important;
+    animation: loadHeader .5s ease-in-out;
+}
+@keyframes loadHeader {
+    0%{
+        top: -10%;
+    }
+    100%{
+        top: 0;
+    }
 }
 .header-care__logo{
     width: 200px;

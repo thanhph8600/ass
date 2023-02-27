@@ -72,11 +72,6 @@ for (var i = 0; i < menuNav.length; i++) {
                 check = j
 
             }
-
-            // alert(j)
-            // console.log(document.getElementsByClassName("header-menu")[0].getElementsByTagName("ul")[0].getElementsByTagName("li")[j].getElementsByTagName("ul")[0])
-
-
         }
     })(i))
 }
@@ -88,3 +83,29 @@ document.getElementsByClassName("mobile-nav")[0].getElementsByTagName("span")[0]
 document.getElementsByClassName("fa-bars")[0].addEventListener("click",function() {
     document.getElementsByClassName("header-menu")[0].style.display = "block"
 })
+
+
+var lastSoto =0
+function loadTop() {
+    var top = document.getElementsByClassName('top')[0]
+    var loadTop = document.getElementsByClassName('header-care')[0]
+    window.addEventListener('scroll',() => {
+        
+        if(window.scrollY>100) {
+            top.style.display = "block"
+        }else {
+            top.style.display = "none"
+        }
+
+
+        var st = window.pageYOffset
+        if (st>lastSoto || st==0) {
+                loadTop.classList.remove('header-care-load')
+        }else if(st<lastSoto ) {
+                loadTop.classList.add('header-care-load')
+        }
+        lastSoto = st <= 0 ? 0 :st;
+    })
+}
+
+loadTop()
