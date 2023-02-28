@@ -5,6 +5,7 @@ html {
 .top {
     display: none;
 
+
 }
 @keyframes tops {
     0% {
@@ -28,9 +29,10 @@ html {
     align-items: center;
     z-index: 10000;
     animation: tops .5s ease-in-out;
-
 }
-
+.fa-space-shuttle {
+    transform:rotate(-90deg);
+}
 
 /* .header {
     min-height: ;
@@ -166,10 +168,11 @@ html {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+
     margin-top: 0;
     margin-bottom: 0px;
-    padding: 0px 0px 0px 0px;
+    padding:  0px;
+    
     position: relative;
     z-index: 1;
     height: 340px;

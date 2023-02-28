@@ -53,6 +53,9 @@
     justify-content: center;
     border: 1px solid rgb(210, 206, 206);
     border-radius: 50%;
+    transition: all .5s ease-in-out;
+    background-color: #fff;
+    cursor: pointer;
 }
 
 
@@ -93,7 +96,7 @@ textarea:focus{
 
 
 .app-contact__address {
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     padding-top: 0;
 }
 .app-contact__address-item {
@@ -136,4 +139,16 @@ textarea:focus{
 .app-contact__address-item-top-bottom p {
     font-weight: 400;
     color: #5F7586;
+}
+
+.app-contact__map {
+     padding-bottom: 50px;
+}
+
+.app-contact__left ul li:hover {
+    transform: rotate3d(0,1,0,360deg);
+    transform: translateY(-4px);
+    background-color: #f80759;
+    box-shadow:  0 0 5px 2px rgb(180, 176, 176);
+    color: #fff;
 }
